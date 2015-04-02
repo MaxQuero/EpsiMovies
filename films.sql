@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 -- Base de données :  `db_movie`
 --
 
+CREATE DATABASE IF NOT EXISTS `db_movie`;
+USE `db_movie`;
 -- --------------------------------------------------------
 
 -- Drop table 
