@@ -7,4 +7,6 @@
  * Time: 13:42
  */
 
-include('views/accueil.html');
+require_once 'views/header.html';
+require_once 'views/accueil.html';
+require_once 'views/footer.html';

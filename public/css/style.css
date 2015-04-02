@@ -5,3 +5,16 @@ body{
 p{
     color : blue;
 }
+
+
+.fixedBar,
+.content {
+    -webkit-transition: .218s left, .218s width;
+    -moz-transition: .218s left, .218s width;
+    transition: .218s left, .218s width;
+    left: 0;
+}
+
+.fixedBar {
+    width: 100%;
+}
