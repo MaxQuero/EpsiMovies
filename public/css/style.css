@@ -1,20 +1,34 @@
+html {
+
+}
 body{
-    background-color: azure;
+    margin :0px auto;
+    padding: 0px;
+    background-color: #fffae7;
 }
 
 p{
     color : blue;
 }
 
-
-.fixedBar,
-.content {
-    -webkit-transition: .218s left, .218s width;
-    -moz-transition: .218s left, .218s width;
-    transition: .218s left, .218s width;
-    left: 0;
+h1 {
+    margin :0px auto;
+    padding: 0px;
 }
+
+#content {
+
+    width: 100%;
+    height: 100%;
+    background-color: #59758b;
+
+}
+
+
+/* --------------------------------------- Footer ---------------------------*/
 
 .fixedBar {
+
     width: 100%;
 }
+
