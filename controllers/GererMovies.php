@@ -9,5 +9,5 @@
 require_once __DIR__."/../models/Movies.php";
 
 $a = new Movies();
- echo ($a->getMovie('12511'));
+$a->getMovie('12511');
 
