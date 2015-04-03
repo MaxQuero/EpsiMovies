@@ -6,7 +6,7 @@
  * Time: 16:12
  */
 
-class Allocine
+class WebServiceAllocine
 {
     private $_api_url = 'http://api.allocine.fr/rest/v3';
     private $_partner_key;

@@ -11,7 +11,7 @@ require_once 'views/header.html';
 require_once 'views/accueil.html';
 
 
-require_once 'controllers/Movies.php';
+require_once 'controllers/GererMovies.php';
 
 
 
