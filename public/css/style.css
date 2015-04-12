@@ -12,12 +12,17 @@ body{
 p{
     color : white;
 }
-
-#banniere {
+.page{
+    position: relative;
     width : 100%;
-    height : 100px;
-    background-color : #5e74b0;
+    height : 100%;
+}
+#banniere {
 
+    width : 100%;
+    height : 25%;
+    background-color : #5e74b0;
+    position : relative;
 }
 
 h1 {
@@ -39,7 +44,8 @@ h1 {
     border-color: white;
     color: white;
     padding: 0 2rem;
-    margin : 30% 35%;
+    margin-top: 30%;
+    margin-left : 35%;
     min-width: 17.5rem;
     font-size: 1.25rem;
     height: 4.875rem;
@@ -66,22 +72,44 @@ h1 {
 #content {
 
     width: 100%;
-    height: 100%;
     background-color: #3f4145;
-
+    height: 75%;
+    position : relative;
+    display : table;
 }
 
+input.movieSearchBar {
+    width : auto;
+    height : 45px;
+    border-width: 1px;
+    border-radius: 120px;
+    padding-left : 20px;
+    font-family: "Merriweather", Times, serif;
+    font-size : 20px;
+    display : table-cell;
+}
+
+input.movieButton{
+    width : 100px;
+    border : 1px solid;
+    border-right : none;
+    background : #555;
+    text-indent: -9999px;
+
+    display : table-cell;
+    position : relative;
+    margin-right : 50px;
+}
 /* --------------------------------------- Footer ---------------------------*/
 
 footer {
+    height: 75px;
+    width : 100%;
+    background-color : #b04d44;
     position:absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 75px;
-    width : 100%;
-    background-color : #b04d44;
-
 }
 
 footer p{
