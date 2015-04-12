@@ -69,6 +69,18 @@ h1 {
     color : #3f4145;
 }
 
+.welcome-page p{
+    position : relative;
+    margin-top : 500px;
+    padding: 0px;
+    text-align : center;
+    min-width: 17.5rem;
+    font-size: 1rem;
+    vertical-align: middle;
+    font-family: "Merriweather", Times, serif;
+}
+
+
 /* --------------------------------------- Movies Page ---------------------------*/
 
 #content {
@@ -82,26 +94,36 @@ h1 {
 }
 
 input.movieSearchBar {
-    width : 91%;
-    height : 45px;
+    width: 91%;
+    height: 45px;
+    margin-top : 20px;
     border-width: 1px;
     border-radius: 120px;
-    background : #555;
-    padding-left : 80px;
+    background: #555;
+    padding-left: 80px;
+    background: url('../img/icone_search.png') no-repeat;
+    background-size: 50px 40px;
+    background-position: 15px;
+    color : white;
     font-family: "Merriweather", Times, serif;
-    font-size : 20px;
-    display : table-cell;
+    font-size: 20px;
+    display: table-cell;
 }
 
-input.movieButton{
-    width : 50px;
-    border : 0px solid;
-    border-right : none;
-    background : #555;
-    text-indent: -9999px;
-    margin-top : 15px;
-    display : table-cell;
-    margin-right : 50px;
+input:focus{
+    outline:none;
+    border:1px solid #2564ff;
+
+}
+
+.list-movies{
+    margin-top : 20px;
+    vertical-align: middle;
+}
+
+.list-movies img{
+    vertical-align: middle;
+
 }
 /* --------------------------------------- Footer ---------------------------*/
 
