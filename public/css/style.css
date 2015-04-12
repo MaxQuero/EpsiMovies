@@ -7,6 +7,8 @@ body{
     background-color: #ebebeb;
     min-height: 100%;
     position: relative;
+    background-color: #3f4145;
+
 }
 
 p{
@@ -71,33 +73,34 @@ h1 {
 
 #content {
 
-    width: 100%;
+    width: 962px;
     background-color: #3f4145;
     height: 75%;
     position : relative;
     display : table;
+    margin : 0 auto;
 }
 
 input.movieSearchBar {
-    width : auto;
+    width : 91%;
     height : 45px;
     border-width: 1px;
     border-radius: 120px;
-    padding-left : 20px;
+    background : #555;
+    padding-left : 80px;
     font-family: "Merriweather", Times, serif;
     font-size : 20px;
     display : table-cell;
 }
 
 input.movieButton{
-    width : 100px;
-    border : 1px solid;
+    width : 50px;
+    border : 0px solid;
     border-right : none;
     background : #555;
     text-indent: -9999px;
-
+    margin-top : 15px;
     display : table-cell;
-    position : relative;
     margin-right : 50px;
 }
 /* --------------------------------------- Footer ---------------------------*/
