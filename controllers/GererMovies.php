@@ -6,8 +6,9 @@
  * Time: 16:14
  */
 
-require_once __DIR__."/../models/Movies.php";
+require_once "../models/Movies.php";
 
 $a = new Movies();
-$a->getMovie('12511');
+$res = json_decode($a->getMovieByName($_POST['movieSearchBar']));
+echo json_encode($res);
 

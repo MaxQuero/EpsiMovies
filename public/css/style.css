@@ -11,9 +11,23 @@ p{
     color : #5bd6ff;
 }
 
+#banniere {
+    width : 500px;
+}
+
 h1 {
 
 }
+
+/* --------------------------------------- Welcome Page ---------------------------*/
+
+.welcome-page{
+    height : 500px;
+    background : url('../img/joker-wallpaper.jpg') no-repeat;
+    background-size: 100% 150%;
+}
+
+/* --------------------------------------- Movies Page ---------------------------*/
 
 #content {
 
@@ -23,14 +37,10 @@ h1 {
 
 }
 
-#banniere {
-    width : 500px;
-}
-
 /* --------------------------------------- Footer ---------------------------*/
 
-.fixedBar {
-
+footer {
+    height :75px;
     width: 100%;
 }
 

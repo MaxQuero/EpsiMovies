@@ -17,9 +17,15 @@ class Movies extends WebServiceAllocine
 
     }
 
-    public function getMovie($id){
+    public function getMovieById($id){
         $allocine = new WebServiceAllocine(ALLOCINE_PARTNER_KEY, ALLOCINE_SECRET_KEY);
         $result = $allocine->get($id);
         return $result;
+    }
+
+    public function getMovieByName($name) {
+        $allocine = new WebServiceAllocine(ALLOCINE_PARTNER_KEY, ALLOCINE_SECRET_KEY);
+        $result = $allocine->search($name);
+        return $allocine->search($name);
     }
 }
