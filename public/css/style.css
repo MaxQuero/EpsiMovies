@@ -1,5 +1,5 @@
-html {
-
+html, body {
+    height : 100%;
 }
 body{
     margin :0px auto;
@@ -8,23 +8,56 @@ body{
 }
 
 p{
-    color : #5bd6ff;
+    color : white;
 }
 
 #banniere {
-    width : 500px;
+    width : 100%;
+    height : 100px;
+    background-color : #b04d44;
+
 }
 
 h1 {
-
+    margin :0px auto;
+    padding: 30px;
 }
 
 /* --------------------------------------- Welcome Page ---------------------------*/
 
 .welcome-page{
-    height : 550px;
-    background : url('../img/joker-wallpaper.jpg') no-repeat;
+    height : 600px;
+    background-image : url('../img/joker-wallpaper.jpg');
     background-size: 100% 100%;
+    position : relative;
+    padding-bottom : 75px;
+    min-height : 100%;
+}
+
+.welcome-page a{
+    border-color: white;
+    color: white;
+    padding: 0 2rem;
+    margin : 30% 35%;
+    min-width: 17.5rem;
+    font-size: 1.25rem;
+    height: 4.875rem;
+    line-height: 4.875rem;
+    font-family: "Merriweather", Times, serif;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+    text-decoration : none;
+}
+
+.welcome-page a:hover{
+    background : white;
+    color : #3f4145;
 }
 
 /* --------------------------------------- Movies Page ---------------------------*/
@@ -32,7 +65,7 @@ h1 {
 #content {
 
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: #3f4145;
 
 }
@@ -40,14 +73,21 @@ h1 {
 /* --------------------------------------- Footer ---------------------------*/
 
 footer {
-    height: 15%;
+    height: 75px;
     width : 100%;
     background-color : #b04d44;
     position:absolute;
-    bottom:0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer p{
-    margin :0px auto;
+    margin-top : 1.5%;
     padding: 0px;
+    text-align : center;
+    min-width: 17.5rem;
+    font-size: 1rem;
+    vertical-align: middle;
+    font-family: "Merriweather", Times, serif;
 }
