@@ -1,7 +1,7 @@
 <?php
 
 /**
-
+Connexion à la base de données locale
  */
 require_once '../config.php';
 
@@ -9,7 +9,7 @@ require_once '../config.php';
  {
      try
      {
-         $bdd = new PDO(DB_HOST,DB_USER,DB_HOST);
+         $bdd = new PDO(DB_HOST,DB_USER,DB_PASSWORD);
          return $bdd;
      }
      catch(Exception $e)
