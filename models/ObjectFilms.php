@@ -4,8 +4,9 @@
  * User: Portable-Nico
  * Date: 02/04/2015
  * Time: 16:50
+ *Classe Model de la BDD, non utilisée pour le moment
  */
-class Films
+class ObjectFilms
 {
 // <editor-fold desc="titre">
     private $titre;
