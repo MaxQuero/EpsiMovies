@@ -1,7 +1,7 @@
 <?php
 
 /**
-Connexion à la base de données locale
+Connexion à la base de données locale.
  */
 require_once '../config.php';
 
