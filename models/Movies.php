@@ -8,7 +8,6 @@
 
 require_once 'WebServiceAllocine.php';
 // Inclure le script
-require_once "./api-allocine-helper.php";
 
 
 define('ALLOCINE_PARTNER_KEY', '100043982026');
@@ -31,7 +30,7 @@ class Movies extends WebServiceAllocine
     public function getMovieByNameWSAllo($name) {
         $allocine = new WebServiceAllocine(ALLOCINE_PARTNER_KEY, ALLOCINE_SECRET_KEY);
         $result = $allocine->search($name);
-        return $allocine->search($name);
+        return $result;
     }
 
     // ApiAllo correspond au webservice nommé api-allocine-helper

@@ -8,5 +8,4 @@
 
 require_once '../views/header.html';
 require_once '../views/movies.html';
-require_once 'GererMovies.php';
 require_once '../views/footer.html';
