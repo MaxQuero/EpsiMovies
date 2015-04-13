@@ -6,7 +6,7 @@
  * Time: 16:50
  *Classe Model de la BDD, non utilisée pour le moment
  */
-class ObjectFilms
+class ObjectMovie
 {
 // <editor-fold desc="titre">
     private $titre;
