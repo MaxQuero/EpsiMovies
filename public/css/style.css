@@ -71,6 +71,7 @@ h1 {
     margin :0px auto;
     padding-top: 300px;
     text-align : center;
+    font-size: 1.5rem;
     font-family: "Merriweather", Times, serif;
 }
 
@@ -110,18 +111,21 @@ input:focus{
 }
 
 .list-movies{
-    margin: 40px 0;
+    margin-top : 10px;
+    margin-bottom : 60px;
     vertical-align: middle;
+    position : relative;
 }
 
 .list-movies img{
     vertical-align: middle;
 
 }
+
 /* --------------------------------------- Footer ---------------------------*/
 
 footer {
-    height: 10%;
+    height: 1;
     width : 100%;
     background-color : #b04d44;
     position:fixed;

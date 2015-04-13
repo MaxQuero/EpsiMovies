@@ -6,7 +6,7 @@
  * Time: 16:12
  */
 
-class WebServiceAllocine
+class WebServiceAllocine2
 {
     private $_api_url = 'http://api.allocine.fr/rest/v3';
     private $_partner_key;
@@ -42,7 +42,7 @@ class WebServiceAllocine
             'partner' => $this->_partner_key,
             'q' => $query,
             'format' => 'json',
-            'filter' => 'movie'
+            'filter' => 'movie',
         );
         // do the request
         $response = $this->_do_request('search', $params);
