@@ -20,7 +20,7 @@ if($resultat != 0) {
 
     //Si non on recherche les informations du film via un webservice (Allocine)
     $a = new Movies();
-    $res = json_decode($a->getMovieByName($_POST['movieSearchBar']));
+    $res = json_decode($a->getMovieByNameWSAllo($_POST['movieSearchBar']));
     echo json_encode($res);
     //Insertion des informations dans la base de données -- Alimentation
     /*$movies = $res->movies;
