@@ -9,14 +9,17 @@
 require_once "../models/Movies.php";
 require_once "../models/MoviesDB.php";
 
-/*Cette partie de code ne fonctionne pas -- est censée retourner le film recherché
+
+/* Cette partie de code ne fonctionne pas -- est censée retourner le film recherché
 */
-//Recherche du film dans la base de données local -- Si un film est retourné -- On affiche les informations correspondantes
-/*$resultat = getMovieDB($_POST['movieSearchBar']);
-if($resultat != 0) {
-    $array['resultat'] = $resultat;
-    echo json_encode($array);
-}else {*/
+// Recherche du film dans la base de données local -- Si un film est retourné -- On affiche les informations correspondantes
+// Cette partie de code ne fonctionne pas car il y a un prblm de conversion entre le retour du select (Object) et le JSON ENCODE afin qu'Ajax puisse l'interpreter
+
+// Recherche du film dans la base de données local -- Si un film est retourné -- On affiche les informations correspondantes
+    /*$resultat = getMovieDB($_POST['movieSearchBar']);
+    if($resultat != null) {
+        echo json_encode($resultat);
+    }else {*/
 
     //Si non on recherche les informations du film via un webservice (Allocine)
     $a = new Movies();

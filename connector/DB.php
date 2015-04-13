@@ -9,6 +9,7 @@ require_once '../config.php';
  {
      try
      {
+         echo('pdo');
          $bdd = new PDO(DB_HOST,DB_USER,DB_PASSWORD);
          return $bdd;
      }

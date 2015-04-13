@@ -10,15 +10,10 @@ require_once '../connector/DB.php';
 function getMovieDB($titre)
 {
     $db = getConnection();
-    $req = 'select * from films where titre=$titre';
+    $req = "select * from films where titre='$titre'";
     $rs = $db->query($req);
-    if (mysql_num_rows($rs) == 0)
-    {
-        return 0;
-    }else
-    {
-        return $rs->fetchAll();
-    }
+    $movies = $rs->fetchAll();
+    return $movies;
 
 }
 
