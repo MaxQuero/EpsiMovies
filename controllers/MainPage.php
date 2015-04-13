@@ -17,5 +17,6 @@ if($resultat) {
     $array['reponse'] = $reponse;
     echo json_encode($array);
 }
+te
 require_once '../views/movies.html';
 require_once '../views/footer.html';
