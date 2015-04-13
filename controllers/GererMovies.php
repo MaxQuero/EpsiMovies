@@ -9,6 +9,6 @@
 require_once "../models/Movies.php";
 
 $a = new Movies();
-$res = json_decode($a->getMovieByName($_POST['movieSearchBar']));
+$res = json_decode($a->getMovieByNameWSAllo($_POST['movieSearchBar']));
 echo json_encode($res);
 

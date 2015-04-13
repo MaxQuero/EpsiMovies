@@ -9,6 +9,7 @@
 
 
 require_once 'views/welcome.html';
+
 require_once 'views/footer.html';
 
 
