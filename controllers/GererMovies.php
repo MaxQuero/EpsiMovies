@@ -13,7 +13,7 @@ require_once "../models/MoviesDB.php";
 */
 //Recherche du film dans la base de données local -- Si un film est retourné -- On affiche les informations correspondantes
 /*$resultat = getMovieDB($_POST['movieSearchBar']);
-if($resultat) {
+if($resultat != 0) {
     $array['resultat'] = $resultat;
     echo json_encode($array);
 }else {*/
